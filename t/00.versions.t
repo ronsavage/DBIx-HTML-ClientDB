@@ -9,7 +9,8 @@ use DBIx::HTML::ClientDB; # For the version #.
 
 use Test::More;
 
-use Carp;
+use strict;
+use warnings;
 
 # ----------------------
 
@@ -17,7 +18,8 @@ pass('All external modules loaded');
 
 my(@modules) = qw
 /
-	Carp
+	strict
+	warnings
 /;
 
 diag "Testing DBIx::HTML::ClientDB V $DBIx::HTML::ClientDB::VERSION";
