@@ -25,7 +25,7 @@ my(%params) =
 	PL_FILES	=> {},
 	PREREQ_PM	=>
 	{
-		Carp => 0,
+		'Carp' => 0,
 	},
 	TEST_REQUIRES =>
 	{
